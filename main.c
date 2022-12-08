@@ -1,6 +1,8 @@
 #include <string.h>
 #include <stdio.h>
 #include <stm32f10x.h>
+#include <showstring.c>
+
 void delay(uint32_t ticks) {
 	for (int i=0; i<ticks; i++) {
 		__NOP();
@@ -177,7 +179,9 @@ int main(void) {
       DrawPixel(i,j);
   */
 
-  DrawChess();
+  //DrawChess();
+  const char* s = "Lazy quick fox jumped over lazy dog";
+  PutString(s, strlen(s), 0, 15);
   
   //delay(10000000);
   //cmd(0x40 | 0x01); // Set start line address (Lines 0x00...0x3F)
