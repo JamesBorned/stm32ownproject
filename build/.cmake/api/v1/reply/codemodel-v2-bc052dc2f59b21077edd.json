@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "stm32_experiments",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "bin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bin-Debug-e11a7517dc626230ee8a.json",
+					"name" : "bin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "flash::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-flash-Debug-b77d787359ea38d02b80.json",
+					"name" : "flash",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hex::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hex-Debug-c8463e451a09bd8c1426.json",
+					"name" : "hex",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stm32_experiments::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stm32_experiments-Debug-73f8abf0d4a8a3eea1b6.json",
+					"name" : "stm32_experiments",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lab101/Documents/Anzhelika/stm32/stm32_experiments/build",
+		"source" : "/home/lab101/Documents/Anzhelika/stm32/stm32_experiments"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
