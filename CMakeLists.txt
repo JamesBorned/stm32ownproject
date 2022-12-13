@@ -57,7 +57,6 @@ set(SOURCE_FILES
     lib/showstring.c
     lib/spi.c
     lib/utils.c
-    lib/displey.c
     )
 
 file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/.gdbinit DESTINATION ${EXECUTABLE_OUTPUT_PATH})

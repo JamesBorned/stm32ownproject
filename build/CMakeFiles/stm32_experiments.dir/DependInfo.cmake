@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/lab101/Documents/Anzhelika/stm32ownproject/lib/displey.c" "CMakeFiles/stm32_experiments.dir/lib/displey.c.o" "gcc" "CMakeFiles/stm32_experiments.dir/lib/displey.c.o.d"
   "/home/lab101/Documents/Anzhelika/stm32ownproject/lib/showstring.c" "CMakeFiles/stm32_experiments.dir/lib/showstring.c.o" "gcc" "CMakeFiles/stm32_experiments.dir/lib/showstring.c.o.d"
   "/home/lab101/Documents/Anzhelika/stm32ownproject/lib/spi.c" "CMakeFiles/stm32_experiments.dir/lib/spi.c.o" "gcc" "CMakeFiles/stm32_experiments.dir/lib/spi.c.o.d"
   "/home/lab101/Documents/Anzhelika/stm32ownproject/lib/utils.c" "CMakeFiles/stm32_experiments.dir/lib/utils.c.o" "gcc" "CMakeFiles/stm32_experiments.dir/lib/utils.c.o.d"

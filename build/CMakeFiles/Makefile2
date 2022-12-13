@@ -84,12 +84,12 @@ clean: CMakeFiles/flash.dir/clean
 CMakeFiles/stm32_experiments.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32_experiments.dir/build.make CMakeFiles/stm32_experiments.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32_experiments.dir/build.make CMakeFiles/stm32_experiments.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab101/Documents/Anzhelika/stm32ownproject/build/CMakeFiles --progress-num=5,6,7,8,9,10,11,12,13 "Built target stm32_experiments"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lab101/Documents/Anzhelika/stm32ownproject/build/CMakeFiles --progress-num=5,6,7,8,9,10,11,12 "Built target stm32_experiments"
 .PHONY : CMakeFiles/stm32_experiments.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/stm32_experiments.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab101/Documents/Anzhelika/stm32ownproject/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab101/Documents/Anzhelika/stm32ownproject/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/stm32_experiments.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab101/Documents/Anzhelika/stm32ownproject/build/CMakeFiles 0
 .PHONY : CMakeFiles/stm32_experiments.dir/rule
@@ -115,7 +115,7 @@ CMakeFiles/bin.dir/all: CMakeFiles/stm32_experiments.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/bin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab101/Documents/Anzhelika/stm32ownproject/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab101/Documents/Anzhelika/stm32ownproject/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/bin.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab101/Documents/Anzhelika/stm32ownproject/build/CMakeFiles 0
 .PHONY : CMakeFiles/bin.dir/rule
@@ -141,7 +141,7 @@ CMakeFiles/hex.dir/all: CMakeFiles/stm32_experiments.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hex.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab101/Documents/Anzhelika/stm32ownproject/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab101/Documents/Anzhelika/stm32ownproject/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hex.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab101/Documents/Anzhelika/stm32ownproject/build/CMakeFiles 0
 .PHONY : CMakeFiles/hex.dir/rule
@@ -167,7 +167,7 @@ CMakeFiles/flash.dir/all: CMakeFiles/stm32_experiments.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/flash.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab101/Documents/Anzhelika/stm32ownproject/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab101/Documents/Anzhelika/stm32ownproject/build/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/flash.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab101/Documents/Anzhelika/stm32ownproject/build/CMakeFiles 0
 .PHONY : CMakeFiles/flash.dir/rule

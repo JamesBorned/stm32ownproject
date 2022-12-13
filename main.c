@@ -5,10 +5,9 @@
 #include <utils.h>
 #include <spi.h>
 
-#define LCD_W 128
-#define LCD_H 8
 
-uint8_t LCD_Buf[LCD_H][LCD_W];
+
+
 
 int main(void) {
 	// Enable clock for GPIOC
@@ -55,7 +54,11 @@ int main(void) {
 
   //DrawChess();
   const char* s = "Triangle";
-  PutString(s, 10, 0, 15);
+  const char* s1 = "Round";
+  const char* s2 = "Square";
+  PutString(s, strlen(s), 0, 8);
+  PutString(s1, strlen(s1), 1, 10);
+  PutString(s2, strlen(s2), 2, 10);
   
   //delay(10000000);
   //cmd(0x40 | 0x01); // Set start line address (Lines 0x00...0x3F)

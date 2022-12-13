@@ -5,6 +5,9 @@
 #include "spi.h"
 #include "showstring.h"
 
+
+
+//uint8_t LCD_Buf[LCD_H][LCD_W];
 /*`````````````````````````````````````````````````````````````````````````````````````````````````
 *   Font definition -- Char cell: 5 x 8 pixels -- PROPORTIONAL spacing.
 *   Char cell: 5 x 8 pixels (8 bytes/char); each data byte is a row of 5 pixels.
@@ -406,6 +409,38 @@ void lcdbufDrawLine(int x0, int y0, int x1, int y1) {
 		}
 	}
 }
+#if 0
+void pixbufDrawCircle(int x0, int y0, int r) {
+	pixbufSetPixel(x0, y0, true);
+	int x = x0;
+	int y = y0 + r;
+	int32_t r2 = r * r;
+	int dx[3] = {1, 1, 0};
+	int dy[3] = {0, -1, -1};
+	while ((x < x0 + r) || (y > y0)) {
+		// Выбираем пиксель, расстояние от которого до центра ~ r с минимальной погрешностью
+		int n_best = 0;
+		int r_new = SQR(x + dx[0] - x0) + SQR(y + dy[0] - y0);
+		int best_error = ABS(r_new - r2);
+		for (int n=1; n<3; n++) {
+			r_new = SQR(x + dx[n] - x0) + SQR(y + dy[n] - y0);
+			int error = ABS(r_new - r2);
+			if (error < best_error)
+				n_best = n;
+		}
+		pixbufSetPixel(x, y, true);
+		// Mirror symmetry
+		pixbufSetPixel(x, 2 * y0 - y, true);
+		pixbufSetPixel(2 * x0 - x, y, true);
+		pixbufSetPixel(2* x0 - x, 2*y0 - y, true);
+		x += dx[n_best];
+		y += dy[n_best];
+	}
+	// 2 Additional points
+	pixbufSetPixel(x0 + r, y0, true);
+	pixbufSetPixel(x0 - r, y0, true);
+}
+#endif
 
 void PutChar(char x){
   uint8_t *pData = (uint8_t *) &font[x * 5];
@@ -430,6 +465,4 @@ void PutString(const char pChar[], int strlen, uint8_t page, uint8_t column){
       PutChar(pChar[i]);
       colnum += (FONT_WIDTH + 1);
   }
-  
-
 }

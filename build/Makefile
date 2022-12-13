@@ -168,30 +168,6 @@ flash/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/flash.dir/build.make CMakeFiles/flash.dir/build
 .PHONY : flash/fast
 
-lib/displey.o: lib/displey.c.o
-.PHONY : lib/displey.o
-
-# target to build an object file
-lib/displey.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32_experiments.dir/build.make CMakeFiles/stm32_experiments.dir/lib/displey.c.o
-.PHONY : lib/displey.c.o
-
-lib/displey.i: lib/displey.c.i
-.PHONY : lib/displey.i
-
-# target to preprocess a source file
-lib/displey.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32_experiments.dir/build.make CMakeFiles/stm32_experiments.dir/lib/displey.c.i
-.PHONY : lib/displey.c.i
-
-lib/displey.s: lib/displey.c.s
-.PHONY : lib/displey.s
-
-# target to generate assembly for a file
-lib/displey.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32_experiments.dir/build.make CMakeFiles/stm32_experiments.dir/lib/displey.c.s
-.PHONY : lib/displey.c.s
-
 lib/showstring.o: lib/showstring.c.o
 .PHONY : lib/showstring.o
 
@@ -372,9 +348,6 @@ help:
 	@echo "... flash"
 	@echo "... hex"
 	@echo "... stm32_experiments"
-	@echo "... lib/displey.o"
-	@echo "... lib/displey.i"
-	@echo "... lib/displey.s"
 	@echo "... lib/showstring.o"
 	@echo "... lib/showstring.i"
 	@echo "... lib/showstring.s"

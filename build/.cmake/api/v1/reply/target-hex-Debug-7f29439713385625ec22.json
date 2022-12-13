@@ -18,7 +18,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 76,
+				"line" : 81,
 				"parent" : 0
 			}
 		]
@@ -29,8 +29,8 @@
 			"id" : "stm32_experiments::@6890427a1f51a3e7e1df"
 		}
 	],
-	"id" : "bin::@6890427a1f51a3e7e1df",
-	"name" : "bin",
+	"id" : "hex::@6890427a1f51a3e7e1df",
+	"name" : "hex",
 	"paths" : 
 	{
 		"build" : ".",
@@ -59,19 +59,19 @@
 		{
 			"backtrace" : 1,
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/bin",
+			"path" : "build/CMakeFiles/hex",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/bin.rule",
+			"path" : "build/CMakeFiles/hex.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/build/stm32_experiments.bin.rule",
+			"path" : "build/build/stm32_experiments.hex.rule",
 			"sourceGroupIndex" : 1
 		}
 	],
