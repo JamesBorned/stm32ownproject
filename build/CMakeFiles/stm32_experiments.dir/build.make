@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lab101/Documents/Anzhelika/stm32/stm32_experiments
+CMAKE_SOURCE_DIR = /home/lab101/Documents/Anzhelika/stm32ownproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lab101/Documents/Anzhelika/stm32/stm32_experiments/build
+CMAKE_BINARY_DIR = /home/lab101/Documents/Anzhelika/stm32ownproject/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/stm32_experiments.dir/depend.make
@@ -72,65 +72,125 @@ include CMakeFiles/stm32_experiments.dir/flags.make
 CMakeFiles/stm32_experiments.dir/stm32/startup/startup_stm32f10x_md.c.o: CMakeFiles/stm32_experiments.dir/flags.make
 CMakeFiles/stm32_experiments.dir/stm32/startup/startup_stm32f10x_md.c.o: ../stm32/startup/startup_stm32f10x_md.c
 CMakeFiles/stm32_experiments.dir/stm32/startup/startup_stm32f10x_md.c.o: CMakeFiles/stm32_experiments.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lab101/Documents/Anzhelika/stm32/stm32_experiments/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/stm32_experiments.dir/stm32/startup/startup_stm32f10x_md.c.o"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32_experiments.dir/stm32/startup/startup_stm32f10x_md.c.o -MF CMakeFiles/stm32_experiments.dir/stm32/startup/startup_stm32f10x_md.c.o.d -o CMakeFiles/stm32_experiments.dir/stm32/startup/startup_stm32f10x_md.c.o -c /home/lab101/Documents/Anzhelika/stm32/stm32_experiments/stm32/startup/startup_stm32f10x_md.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lab101/Documents/Anzhelika/stm32ownproject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/stm32_experiments.dir/stm32/startup/startup_stm32f10x_md.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32_experiments.dir/stm32/startup/startup_stm32f10x_md.c.o -MF CMakeFiles/stm32_experiments.dir/stm32/startup/startup_stm32f10x_md.c.o.d -o CMakeFiles/stm32_experiments.dir/stm32/startup/startup_stm32f10x_md.c.o -c /home/lab101/Documents/Anzhelika/stm32ownproject/stm32/startup/startup_stm32f10x_md.c
 
 CMakeFiles/stm32_experiments.dir/stm32/startup/startup_stm32f10x_md.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stm32_experiments.dir/stm32/startup/startup_stm32f10x_md.c.i"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lab101/Documents/Anzhelika/stm32/stm32_experiments/stm32/startup/startup_stm32f10x_md.c > CMakeFiles/stm32_experiments.dir/stm32/startup/startup_stm32f10x_md.c.i
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lab101/Documents/Anzhelika/stm32ownproject/stm32/startup/startup_stm32f10x_md.c > CMakeFiles/stm32_experiments.dir/stm32/startup/startup_stm32f10x_md.c.i
 
 CMakeFiles/stm32_experiments.dir/stm32/startup/startup_stm32f10x_md.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stm32_experiments.dir/stm32/startup/startup_stm32f10x_md.c.s"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lab101/Documents/Anzhelika/stm32/stm32_experiments/stm32/startup/startup_stm32f10x_md.c -o CMakeFiles/stm32_experiments.dir/stm32/startup/startup_stm32f10x_md.c.s
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lab101/Documents/Anzhelika/stm32ownproject/stm32/startup/startup_stm32f10x_md.c -o CMakeFiles/stm32_experiments.dir/stm32/startup/startup_stm32f10x_md.c.s
 
 CMakeFiles/stm32_experiments.dir/stm32/system_stm32f10x.c.o: CMakeFiles/stm32_experiments.dir/flags.make
 CMakeFiles/stm32_experiments.dir/stm32/system_stm32f10x.c.o: ../stm32/system_stm32f10x.c
 CMakeFiles/stm32_experiments.dir/stm32/system_stm32f10x.c.o: CMakeFiles/stm32_experiments.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lab101/Documents/Anzhelika/stm32/stm32_experiments/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/stm32_experiments.dir/stm32/system_stm32f10x.c.o"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32_experiments.dir/stm32/system_stm32f10x.c.o -MF CMakeFiles/stm32_experiments.dir/stm32/system_stm32f10x.c.o.d -o CMakeFiles/stm32_experiments.dir/stm32/system_stm32f10x.c.o -c /home/lab101/Documents/Anzhelika/stm32/stm32_experiments/stm32/system_stm32f10x.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lab101/Documents/Anzhelika/stm32ownproject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/stm32_experiments.dir/stm32/system_stm32f10x.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32_experiments.dir/stm32/system_stm32f10x.c.o -MF CMakeFiles/stm32_experiments.dir/stm32/system_stm32f10x.c.o.d -o CMakeFiles/stm32_experiments.dir/stm32/system_stm32f10x.c.o -c /home/lab101/Documents/Anzhelika/stm32ownproject/stm32/system_stm32f10x.c
 
 CMakeFiles/stm32_experiments.dir/stm32/system_stm32f10x.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stm32_experiments.dir/stm32/system_stm32f10x.c.i"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lab101/Documents/Anzhelika/stm32/stm32_experiments/stm32/system_stm32f10x.c > CMakeFiles/stm32_experiments.dir/stm32/system_stm32f10x.c.i
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lab101/Documents/Anzhelika/stm32ownproject/stm32/system_stm32f10x.c > CMakeFiles/stm32_experiments.dir/stm32/system_stm32f10x.c.i
 
 CMakeFiles/stm32_experiments.dir/stm32/system_stm32f10x.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stm32_experiments.dir/stm32/system_stm32f10x.c.s"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lab101/Documents/Anzhelika/stm32/stm32_experiments/stm32/system_stm32f10x.c -o CMakeFiles/stm32_experiments.dir/stm32/system_stm32f10x.c.s
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lab101/Documents/Anzhelika/stm32ownproject/stm32/system_stm32f10x.c -o CMakeFiles/stm32_experiments.dir/stm32/system_stm32f10x.c.s
 
 CMakeFiles/stm32_experiments.dir/syscalls/syscalls.c.o: CMakeFiles/stm32_experiments.dir/flags.make
 CMakeFiles/stm32_experiments.dir/syscalls/syscalls.c.o: ../syscalls/syscalls.c
 CMakeFiles/stm32_experiments.dir/syscalls/syscalls.c.o: CMakeFiles/stm32_experiments.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lab101/Documents/Anzhelika/stm32/stm32_experiments/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/stm32_experiments.dir/syscalls/syscalls.c.o"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32_experiments.dir/syscalls/syscalls.c.o -MF CMakeFiles/stm32_experiments.dir/syscalls/syscalls.c.o.d -o CMakeFiles/stm32_experiments.dir/syscalls/syscalls.c.o -c /home/lab101/Documents/Anzhelika/stm32/stm32_experiments/syscalls/syscalls.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lab101/Documents/Anzhelika/stm32ownproject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/stm32_experiments.dir/syscalls/syscalls.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32_experiments.dir/syscalls/syscalls.c.o -MF CMakeFiles/stm32_experiments.dir/syscalls/syscalls.c.o.d -o CMakeFiles/stm32_experiments.dir/syscalls/syscalls.c.o -c /home/lab101/Documents/Anzhelika/stm32ownproject/syscalls/syscalls.c
 
 CMakeFiles/stm32_experiments.dir/syscalls/syscalls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stm32_experiments.dir/syscalls/syscalls.c.i"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lab101/Documents/Anzhelika/stm32/stm32_experiments/syscalls/syscalls.c > CMakeFiles/stm32_experiments.dir/syscalls/syscalls.c.i
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lab101/Documents/Anzhelika/stm32ownproject/syscalls/syscalls.c > CMakeFiles/stm32_experiments.dir/syscalls/syscalls.c.i
 
 CMakeFiles/stm32_experiments.dir/syscalls/syscalls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stm32_experiments.dir/syscalls/syscalls.c.s"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lab101/Documents/Anzhelika/stm32/stm32_experiments/syscalls/syscalls.c -o CMakeFiles/stm32_experiments.dir/syscalls/syscalls.c.s
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lab101/Documents/Anzhelika/stm32ownproject/syscalls/syscalls.c -o CMakeFiles/stm32_experiments.dir/syscalls/syscalls.c.s
 
 CMakeFiles/stm32_experiments.dir/main.c.o: CMakeFiles/stm32_experiments.dir/flags.make
 CMakeFiles/stm32_experiments.dir/main.c.o: ../main.c
 CMakeFiles/stm32_experiments.dir/main.c.o: CMakeFiles/stm32_experiments.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lab101/Documents/Anzhelika/stm32/stm32_experiments/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/stm32_experiments.dir/main.c.o"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32_experiments.dir/main.c.o -MF CMakeFiles/stm32_experiments.dir/main.c.o.d -o CMakeFiles/stm32_experiments.dir/main.c.o -c /home/lab101/Documents/Anzhelika/stm32/stm32_experiments/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lab101/Documents/Anzhelika/stm32ownproject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/stm32_experiments.dir/main.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32_experiments.dir/main.c.o -MF CMakeFiles/stm32_experiments.dir/main.c.o.d -o CMakeFiles/stm32_experiments.dir/main.c.o -c /home/lab101/Documents/Anzhelika/stm32ownproject/main.c
 
 CMakeFiles/stm32_experiments.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stm32_experiments.dir/main.c.i"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lab101/Documents/Anzhelika/stm32/stm32_experiments/main.c > CMakeFiles/stm32_experiments.dir/main.c.i
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lab101/Documents/Anzhelika/stm32ownproject/main.c > CMakeFiles/stm32_experiments.dir/main.c.i
 
 CMakeFiles/stm32_experiments.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stm32_experiments.dir/main.c.s"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lab101/Documents/Anzhelika/stm32/stm32_experiments/main.c -o CMakeFiles/stm32_experiments.dir/main.c.s
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lab101/Documents/Anzhelika/stm32ownproject/main.c -o CMakeFiles/stm32_experiments.dir/main.c.s
+
+CMakeFiles/stm32_experiments.dir/lib/showstring.c.o: CMakeFiles/stm32_experiments.dir/flags.make
+CMakeFiles/stm32_experiments.dir/lib/showstring.c.o: ../lib/showstring.c
+CMakeFiles/stm32_experiments.dir/lib/showstring.c.o: CMakeFiles/stm32_experiments.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lab101/Documents/Anzhelika/stm32ownproject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/stm32_experiments.dir/lib/showstring.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32_experiments.dir/lib/showstring.c.o -MF CMakeFiles/stm32_experiments.dir/lib/showstring.c.o.d -o CMakeFiles/stm32_experiments.dir/lib/showstring.c.o -c /home/lab101/Documents/Anzhelika/stm32ownproject/lib/showstring.c
+
+CMakeFiles/stm32_experiments.dir/lib/showstring.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stm32_experiments.dir/lib/showstring.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lab101/Documents/Anzhelika/stm32ownproject/lib/showstring.c > CMakeFiles/stm32_experiments.dir/lib/showstring.c.i
+
+CMakeFiles/stm32_experiments.dir/lib/showstring.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stm32_experiments.dir/lib/showstring.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lab101/Documents/Anzhelika/stm32ownproject/lib/showstring.c -o CMakeFiles/stm32_experiments.dir/lib/showstring.c.s
+
+CMakeFiles/stm32_experiments.dir/lib/spi.c.o: CMakeFiles/stm32_experiments.dir/flags.make
+CMakeFiles/stm32_experiments.dir/lib/spi.c.o: ../lib/spi.c
+CMakeFiles/stm32_experiments.dir/lib/spi.c.o: CMakeFiles/stm32_experiments.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lab101/Documents/Anzhelika/stm32ownproject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/stm32_experiments.dir/lib/spi.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32_experiments.dir/lib/spi.c.o -MF CMakeFiles/stm32_experiments.dir/lib/spi.c.o.d -o CMakeFiles/stm32_experiments.dir/lib/spi.c.o -c /home/lab101/Documents/Anzhelika/stm32ownproject/lib/spi.c
+
+CMakeFiles/stm32_experiments.dir/lib/spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stm32_experiments.dir/lib/spi.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lab101/Documents/Anzhelika/stm32ownproject/lib/spi.c > CMakeFiles/stm32_experiments.dir/lib/spi.c.i
+
+CMakeFiles/stm32_experiments.dir/lib/spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stm32_experiments.dir/lib/spi.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lab101/Documents/Anzhelika/stm32ownproject/lib/spi.c -o CMakeFiles/stm32_experiments.dir/lib/spi.c.s
+
+CMakeFiles/stm32_experiments.dir/lib/utils.c.o: CMakeFiles/stm32_experiments.dir/flags.make
+CMakeFiles/stm32_experiments.dir/lib/utils.c.o: ../lib/utils.c
+CMakeFiles/stm32_experiments.dir/lib/utils.c.o: CMakeFiles/stm32_experiments.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lab101/Documents/Anzhelika/stm32ownproject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/stm32_experiments.dir/lib/utils.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32_experiments.dir/lib/utils.c.o -MF CMakeFiles/stm32_experiments.dir/lib/utils.c.o.d -o CMakeFiles/stm32_experiments.dir/lib/utils.c.o -c /home/lab101/Documents/Anzhelika/stm32ownproject/lib/utils.c
+
+CMakeFiles/stm32_experiments.dir/lib/utils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stm32_experiments.dir/lib/utils.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lab101/Documents/Anzhelika/stm32ownproject/lib/utils.c > CMakeFiles/stm32_experiments.dir/lib/utils.c.i
+
+CMakeFiles/stm32_experiments.dir/lib/utils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stm32_experiments.dir/lib/utils.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lab101/Documents/Anzhelika/stm32ownproject/lib/utils.c -o CMakeFiles/stm32_experiments.dir/lib/utils.c.s
+
+CMakeFiles/stm32_experiments.dir/lib/displey.c.o: CMakeFiles/stm32_experiments.dir/flags.make
+CMakeFiles/stm32_experiments.dir/lib/displey.c.o: ../lib/displey.c
+CMakeFiles/stm32_experiments.dir/lib/displey.c.o: CMakeFiles/stm32_experiments.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lab101/Documents/Anzhelika/stm32ownproject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/stm32_experiments.dir/lib/displey.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/stm32_experiments.dir/lib/displey.c.o -MF CMakeFiles/stm32_experiments.dir/lib/displey.c.o.d -o CMakeFiles/stm32_experiments.dir/lib/displey.c.o -c /home/lab101/Documents/Anzhelika/stm32ownproject/lib/displey.c
+
+CMakeFiles/stm32_experiments.dir/lib/displey.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stm32_experiments.dir/lib/displey.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lab101/Documents/Anzhelika/stm32ownproject/lib/displey.c > CMakeFiles/stm32_experiments.dir/lib/displey.c.i
+
+CMakeFiles/stm32_experiments.dir/lib/displey.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stm32_experiments.dir/lib/displey.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lab101/Documents/Anzhelika/stm32ownproject/lib/displey.c -o CMakeFiles/stm32_experiments.dir/lib/displey.c.s
 
 # Object files for target stm32_experiments
 stm32_experiments_OBJECTS = \
 "CMakeFiles/stm32_experiments.dir/stm32/startup/startup_stm32f10x_md.c.o" \
 "CMakeFiles/stm32_experiments.dir/stm32/system_stm32f10x.c.o" \
 "CMakeFiles/stm32_experiments.dir/syscalls/syscalls.c.o" \
-"CMakeFiles/stm32_experiments.dir/main.c.o"
+"CMakeFiles/stm32_experiments.dir/main.c.o" \
+"CMakeFiles/stm32_experiments.dir/lib/showstring.c.o" \
+"CMakeFiles/stm32_experiments.dir/lib/spi.c.o" \
+"CMakeFiles/stm32_experiments.dir/lib/utils.c.o" \
+"CMakeFiles/stm32_experiments.dir/lib/displey.c.o"
 
 # External object files for target stm32_experiments
 stm32_experiments_EXTERNAL_OBJECTS =
@@ -139,9 +199,13 @@ build/stm32_experiments.elf: CMakeFiles/stm32_experiments.dir/stm32/startup/star
 build/stm32_experiments.elf: CMakeFiles/stm32_experiments.dir/stm32/system_stm32f10x.c.o
 build/stm32_experiments.elf: CMakeFiles/stm32_experiments.dir/syscalls/syscalls.c.o
 build/stm32_experiments.elf: CMakeFiles/stm32_experiments.dir/main.c.o
+build/stm32_experiments.elf: CMakeFiles/stm32_experiments.dir/lib/showstring.c.o
+build/stm32_experiments.elf: CMakeFiles/stm32_experiments.dir/lib/spi.c.o
+build/stm32_experiments.elf: CMakeFiles/stm32_experiments.dir/lib/utils.c.o
+build/stm32_experiments.elf: CMakeFiles/stm32_experiments.dir/lib/displey.c.o
 build/stm32_experiments.elf: CMakeFiles/stm32_experiments.dir/build.make
 build/stm32_experiments.elf: CMakeFiles/stm32_experiments.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lab101/Documents/Anzhelika/stm32/stm32_experiments/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable build/stm32_experiments.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lab101/Documents/Anzhelika/stm32ownproject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable build/stm32_experiments.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/stm32_experiments.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +217,6 @@ CMakeFiles/stm32_experiments.dir/clean:
 .PHONY : CMakeFiles/stm32_experiments.dir/clean
 
 CMakeFiles/stm32_experiments.dir/depend:
-	cd /home/lab101/Documents/Anzhelika/stm32/stm32_experiments/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lab101/Documents/Anzhelika/stm32/stm32_experiments /home/lab101/Documents/Anzhelika/stm32/stm32_experiments /home/lab101/Documents/Anzhelika/stm32/stm32_experiments/build /home/lab101/Documents/Anzhelika/stm32/stm32_experiments/build /home/lab101/Documents/Anzhelika/stm32/stm32_experiments/build/CMakeFiles/stm32_experiments.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lab101/Documents/Anzhelika/stm32ownproject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lab101/Documents/Anzhelika/stm32ownproject /home/lab101/Documents/Anzhelika/stm32ownproject /home/lab101/Documents/Anzhelika/stm32ownproject/build /home/lab101/Documents/Anzhelika/stm32ownproject/build /home/lab101/Documents/Anzhelika/stm32ownproject/build/CMakeFiles/stm32_experiments.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/stm32_experiments.dir/depend
 

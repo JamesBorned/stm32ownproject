@@ -1,6 +1,6 @@
-/home/lab101/Documents/Anzhelika/stm32/stm32_experiments/build/CMakeFiles/stm32_experiments.dir
-/home/lab101/Documents/Anzhelika/stm32/stm32_experiments/build/CMakeFiles/bin.dir
-/home/lab101/Documents/Anzhelika/stm32/stm32_experiments/build/CMakeFiles/hex.dir
-/home/lab101/Documents/Anzhelika/stm32/stm32_experiments/build/CMakeFiles/flash.dir
-/home/lab101/Documents/Anzhelika/stm32/stm32_experiments/build/CMakeFiles/edit_cache.dir
-/home/lab101/Documents/Anzhelika/stm32/stm32_experiments/build/CMakeFiles/rebuild_cache.dir
+/home/lab101/Documents/Anzhelika/stm32ownproject/build/CMakeFiles/stm32_experiments.dir
+/home/lab101/Documents/Anzhelika/stm32ownproject/build/CMakeFiles/bin.dir
+/home/lab101/Documents/Anzhelika/stm32ownproject/build/CMakeFiles/hex.dir
+/home/lab101/Documents/Anzhelika/stm32ownproject/build/CMakeFiles/flash.dir
+/home/lab101/Documents/Anzhelika/stm32ownproject/build/CMakeFiles/edit_cache.dir
+/home/lab101/Documents/Anzhelika/stm32ownproject/build/CMakeFiles/rebuild_cache.dir

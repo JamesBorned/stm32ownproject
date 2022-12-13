@@ -1,13 +1,9 @@
 #include <string.h>
 #include <stdio.h>
 #include <stm32f10x.h>
-#include <utils.h>
-#include <spi.h>
-
-#define LCD_W 128
-#define LCD_H 8
-
-uint8_t LCD_Buf[LCD_H][LCD_W];
+#include "utils.h"
+#include "spi.h"
+#include "showstring.h"
 
 /*`````````````````````````````````````````````````````````````````````````````````````````````````
 *   Font definition -- Char cell: 5 x 8 pixels -- PROPORTIONAL spacing.

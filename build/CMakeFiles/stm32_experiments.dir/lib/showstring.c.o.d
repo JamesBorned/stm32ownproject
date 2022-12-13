@@ -1,5 +1,5 @@
-CMakeFiles/stm32_experiments.dir/main.c.o: \
- /home/lab101/Documents/Anzhelika/stm32ownproject/main.c \
+CMakeFiles/stm32_experiments.dir/lib/showstring.c.o: \
+ /home/lab101/Documents/Anzhelika/stm32ownproject/lib/showstring.c \
  /usr/include/newlib/string.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
  /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \
@@ -20,7 +20,7 @@ CMakeFiles/stm32_experiments.dir/main.c.o: \
  /home/lab101/Documents/Anzhelika/stm32ownproject/cmsis/core_cmInstr.h \
  /home/lab101/Documents/Anzhelika/stm32ownproject/cmsis/core_cmFunc.h \
  /home/lab101/Documents/Anzhelika/stm32ownproject/stm32/system_stm32f10x.h \
- /home/lab101/Documents/Anzhelika/stm32ownproject/lib/showstring.h \
  /home/lab101/Documents/Anzhelika/stm32ownproject/lib/utils.h \
  /home/lab101/Documents/Anzhelika/stm32ownproject/lib/spi.h \
- /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+ /home/lab101/Documents/Anzhelika/stm32ownproject/lib/showstring.h

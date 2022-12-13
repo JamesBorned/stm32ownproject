@@ -1,4 +1,12 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/stm32_experiments.dir/lib/displey.c.o"
+  "CMakeFiles/stm32_experiments.dir/lib/displey.c.o.d"
+  "CMakeFiles/stm32_experiments.dir/lib/showstring.c.o"
+  "CMakeFiles/stm32_experiments.dir/lib/showstring.c.o.d"
+  "CMakeFiles/stm32_experiments.dir/lib/spi.c.o"
+  "CMakeFiles/stm32_experiments.dir/lib/spi.c.o.d"
+  "CMakeFiles/stm32_experiments.dir/lib/utils.c.o"
+  "CMakeFiles/stm32_experiments.dir/lib/utils.c.o.d"
   "CMakeFiles/stm32_experiments.dir/main.c.o"
   "CMakeFiles/stm32_experiments.dir/main.c.o.d"
   "CMakeFiles/stm32_experiments.dir/stm32/startup/startup_stm32f10x_md.c.o"

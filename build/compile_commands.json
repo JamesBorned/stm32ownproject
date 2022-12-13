@@ -1,22 +1,42 @@
 [
 {
-  "directory": "/home/lab101/Documents/Anzhelika/stm32/stm32_experiments/build",
-  "command": "arm-none-eabi-gcc -DSTM32F103C8 -DSTM32F10X_MD -I/home/lab101/Documents/Anzhelika/stm32/stm32_experiments/cmsis -I/home/lab101/Documents/Anzhelika/stm32/stm32_experiments/stm32 -mcpu=cortex-m3 -mthumb -std=c99 -fdata-sections -ffunction-sections -mlittle-endian -g3 -fno-move-loop-invariants -fsigned-char -ffreestanding -g -o CMakeFiles/stm32_experiments.dir/stm32/startup/startup_stm32f10x_md.c.o -c /home/lab101/Documents/Anzhelika/stm32/stm32_experiments/stm32/startup/startup_stm32f10x_md.c",
-  "file": "/home/lab101/Documents/Anzhelika/stm32/stm32_experiments/stm32/startup/startup_stm32f10x_md.c"
+  "directory": "/home/lab101/Documents/Anzhelika/stm32ownproject/build",
+  "command": "arm-none-eabi-gcc -DSTM32F103C8 -DSTM32F10X_MD -I/home/lab101/Documents/Anzhelika/stm32ownproject/cmsis -I/home/lab101/Documents/Anzhelika/stm32ownproject/stm32 -I/home/lab101/Documents/Anzhelika/stm32ownproject/lib -mcpu=cortex-m3 -mthumb -std=c99 -fdata-sections -ffunction-sections -mlittle-endian -g3 -fno-move-loop-invariants -fsigned-char -ffreestanding -g -o CMakeFiles/stm32_experiments.dir/stm32/startup/startup_stm32f10x_md.c.o -c /home/lab101/Documents/Anzhelika/stm32ownproject/stm32/startup/startup_stm32f10x_md.c",
+  "file": "/home/lab101/Documents/Anzhelika/stm32ownproject/stm32/startup/startup_stm32f10x_md.c"
 },
 {
-  "directory": "/home/lab101/Documents/Anzhelika/stm32/stm32_experiments/build",
-  "command": "arm-none-eabi-gcc -DSTM32F103C8 -DSTM32F10X_MD -I/home/lab101/Documents/Anzhelika/stm32/stm32_experiments/cmsis -I/home/lab101/Documents/Anzhelika/stm32/stm32_experiments/stm32 -mcpu=cortex-m3 -mthumb -std=c99 -fdata-sections -ffunction-sections -mlittle-endian -g3 -fno-move-loop-invariants -fsigned-char -ffreestanding -g -o CMakeFiles/stm32_experiments.dir/stm32/system_stm32f10x.c.o -c /home/lab101/Documents/Anzhelika/stm32/stm32_experiments/stm32/system_stm32f10x.c",
-  "file": "/home/lab101/Documents/Anzhelika/stm32/stm32_experiments/stm32/system_stm32f10x.c"
+  "directory": "/home/lab101/Documents/Anzhelika/stm32ownproject/build",
+  "command": "arm-none-eabi-gcc -DSTM32F103C8 -DSTM32F10X_MD -I/home/lab101/Documents/Anzhelika/stm32ownproject/cmsis -I/home/lab101/Documents/Anzhelika/stm32ownproject/stm32 -I/home/lab101/Documents/Anzhelika/stm32ownproject/lib -mcpu=cortex-m3 -mthumb -std=c99 -fdata-sections -ffunction-sections -mlittle-endian -g3 -fno-move-loop-invariants -fsigned-char -ffreestanding -g -o CMakeFiles/stm32_experiments.dir/stm32/system_stm32f10x.c.o -c /home/lab101/Documents/Anzhelika/stm32ownproject/stm32/system_stm32f10x.c",
+  "file": "/home/lab101/Documents/Anzhelika/stm32ownproject/stm32/system_stm32f10x.c"
 },
 {
-  "directory": "/home/lab101/Documents/Anzhelika/stm32/stm32_experiments/build",
-  "command": "arm-none-eabi-gcc -DSTM32F103C8 -DSTM32F10X_MD -I/home/lab101/Documents/Anzhelika/stm32/stm32_experiments/cmsis -I/home/lab101/Documents/Anzhelika/stm32/stm32_experiments/stm32 -mcpu=cortex-m3 -mthumb -std=c99 -fdata-sections -ffunction-sections -mlittle-endian -g3 -fno-move-loop-invariants -fsigned-char -ffreestanding -g -o CMakeFiles/stm32_experiments.dir/syscalls/syscalls.c.o -c /home/lab101/Documents/Anzhelika/stm32/stm32_experiments/syscalls/syscalls.c",
-  "file": "/home/lab101/Documents/Anzhelika/stm32/stm32_experiments/syscalls/syscalls.c"
+  "directory": "/home/lab101/Documents/Anzhelika/stm32ownproject/build",
+  "command": "arm-none-eabi-gcc -DSTM32F103C8 -DSTM32F10X_MD -I/home/lab101/Documents/Anzhelika/stm32ownproject/cmsis -I/home/lab101/Documents/Anzhelika/stm32ownproject/stm32 -I/home/lab101/Documents/Anzhelika/stm32ownproject/lib -mcpu=cortex-m3 -mthumb -std=c99 -fdata-sections -ffunction-sections -mlittle-endian -g3 -fno-move-loop-invariants -fsigned-char -ffreestanding -g -o CMakeFiles/stm32_experiments.dir/syscalls/syscalls.c.o -c /home/lab101/Documents/Anzhelika/stm32ownproject/syscalls/syscalls.c",
+  "file": "/home/lab101/Documents/Anzhelika/stm32ownproject/syscalls/syscalls.c"
 },
 {
-  "directory": "/home/lab101/Documents/Anzhelika/stm32/stm32_experiments/build",
-  "command": "arm-none-eabi-gcc -DSTM32F103C8 -DSTM32F10X_MD -I/home/lab101/Documents/Anzhelika/stm32/stm32_experiments/cmsis -I/home/lab101/Documents/Anzhelika/stm32/stm32_experiments/stm32 -mcpu=cortex-m3 -mthumb -std=c99 -fdata-sections -ffunction-sections -mlittle-endian -g3 -fno-move-loop-invariants -fsigned-char -ffreestanding -g -o CMakeFiles/stm32_experiments.dir/main.c.o -c /home/lab101/Documents/Anzhelika/stm32/stm32_experiments/main.c",
-  "file": "/home/lab101/Documents/Anzhelika/stm32/stm32_experiments/main.c"
+  "directory": "/home/lab101/Documents/Anzhelika/stm32ownproject/build",
+  "command": "arm-none-eabi-gcc -DSTM32F103C8 -DSTM32F10X_MD -I/home/lab101/Documents/Anzhelika/stm32ownproject/cmsis -I/home/lab101/Documents/Anzhelika/stm32ownproject/stm32 -I/home/lab101/Documents/Anzhelika/stm32ownproject/lib -mcpu=cortex-m3 -mthumb -std=c99 -fdata-sections -ffunction-sections -mlittle-endian -g3 -fno-move-loop-invariants -fsigned-char -ffreestanding -g -o CMakeFiles/stm32_experiments.dir/main.c.o -c /home/lab101/Documents/Anzhelika/stm32ownproject/main.c",
+  "file": "/home/lab101/Documents/Anzhelika/stm32ownproject/main.c"
+},
+{
+  "directory": "/home/lab101/Documents/Anzhelika/stm32ownproject/build",
+  "command": "arm-none-eabi-gcc -DSTM32F103C8 -DSTM32F10X_MD -I/home/lab101/Documents/Anzhelika/stm32ownproject/cmsis -I/home/lab101/Documents/Anzhelika/stm32ownproject/stm32 -I/home/lab101/Documents/Anzhelika/stm32ownproject/lib -mcpu=cortex-m3 -mthumb -std=c99 -fdata-sections -ffunction-sections -mlittle-endian -g3 -fno-move-loop-invariants -fsigned-char -ffreestanding -g -o CMakeFiles/stm32_experiments.dir/lib/showstring.c.o -c /home/lab101/Documents/Anzhelika/stm32ownproject/lib/showstring.c",
+  "file": "/home/lab101/Documents/Anzhelika/stm32ownproject/lib/showstring.c"
+},
+{
+  "directory": "/home/lab101/Documents/Anzhelika/stm32ownproject/build",
+  "command": "arm-none-eabi-gcc -DSTM32F103C8 -DSTM32F10X_MD -I/home/lab101/Documents/Anzhelika/stm32ownproject/cmsis -I/home/lab101/Documents/Anzhelika/stm32ownproject/stm32 -I/home/lab101/Documents/Anzhelika/stm32ownproject/lib -mcpu=cortex-m3 -mthumb -std=c99 -fdata-sections -ffunction-sections -mlittle-endian -g3 -fno-move-loop-invariants -fsigned-char -ffreestanding -g -o CMakeFiles/stm32_experiments.dir/lib/spi.c.o -c /home/lab101/Documents/Anzhelika/stm32ownproject/lib/spi.c",
+  "file": "/home/lab101/Documents/Anzhelika/stm32ownproject/lib/spi.c"
+},
+{
+  "directory": "/home/lab101/Documents/Anzhelika/stm32ownproject/build",
+  "command": "arm-none-eabi-gcc -DSTM32F103C8 -DSTM32F10X_MD -I/home/lab101/Documents/Anzhelika/stm32ownproject/cmsis -I/home/lab101/Documents/Anzhelika/stm32ownproject/stm32 -I/home/lab101/Documents/Anzhelika/stm32ownproject/lib -mcpu=cortex-m3 -mthumb -std=c99 -fdata-sections -ffunction-sections -mlittle-endian -g3 -fno-move-loop-invariants -fsigned-char -ffreestanding -g -o CMakeFiles/stm32_experiments.dir/lib/utils.c.o -c /home/lab101/Documents/Anzhelika/stm32ownproject/lib/utils.c",
+  "file": "/home/lab101/Documents/Anzhelika/stm32ownproject/lib/utils.c"
+},
+{
+  "directory": "/home/lab101/Documents/Anzhelika/stm32ownproject/build",
+  "command": "arm-none-eabi-gcc -DSTM32F103C8 -DSTM32F10X_MD -I/home/lab101/Documents/Anzhelika/stm32ownproject/cmsis -I/home/lab101/Documents/Anzhelika/stm32ownproject/stm32 -I/home/lab101/Documents/Anzhelika/stm32ownproject/lib -mcpu=cortex-m3 -mthumb -std=c99 -fdata-sections -ffunction-sections -mlittle-endian -g3 -fno-move-loop-invariants -fsigned-char -ffreestanding -g -o CMakeFiles/stm32_experiments.dir/lib/displey.c.o -c /home/lab101/Documents/Anzhelika/stm32ownproject/lib/displey.c",
+  "file": "/home/lab101/Documents/Anzhelika/stm32ownproject/lib/displey.c"
 }
 ]

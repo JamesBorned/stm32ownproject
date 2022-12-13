@@ -1,4 +1,4 @@
-# Install script for directory: /home/lab101/Documents/Anzhelika/stm32/stm32_experiments
+# Install script for directory: /home/lab101/Documents/Anzhelika/stm32ownproject
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/lab101/Documents/Anzhelika/stm32/stm32_experiments/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/lab101/Documents/Anzhelika/stm32ownproject/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

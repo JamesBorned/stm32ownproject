@@ -1,5 +1,5 @@
 CMakeFiles/stm32_experiments.dir/syscalls/syscalls.c.o: \
- /home/lab101/Documents/Anzhelika/stm32/stm32_experiments/syscalls/syscalls.c \
+ /home/lab101/Documents/Anzhelika/stm32ownproject/syscalls/syscalls.c \
  /usr/include/newlib/stdio.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
  /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \

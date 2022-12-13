@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lab101/Documents/Anzhelika/stm32/stm32_experiments
+CMAKE_SOURCE_DIR = /home/lab101/Documents/Anzhelika/stm32ownproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lab101/Documents/Anzhelika/stm32/stm32_experiments/build
+CMAKE_BINARY_DIR = /home/lab101/Documents/Anzhelika/stm32ownproject/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab101/Documents/Anzhelika/stm32/stm32_experiments/build/CMakeFiles /home/lab101/Documents/Anzhelika/stm32/stm32_experiments/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab101/Documents/Anzhelika/stm32ownproject/build/CMakeFiles /home/lab101/Documents/Anzhelika/stm32ownproject/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab101/Documents/Anzhelika/stm32/stm32_experiments/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lab101/Documents/Anzhelika/stm32ownproject/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -167,6 +167,102 @@ flash: cmake_check_build_system
 flash/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/flash.dir/build.make CMakeFiles/flash.dir/build
 .PHONY : flash/fast
+
+lib/displey.o: lib/displey.c.o
+.PHONY : lib/displey.o
+
+# target to build an object file
+lib/displey.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32_experiments.dir/build.make CMakeFiles/stm32_experiments.dir/lib/displey.c.o
+.PHONY : lib/displey.c.o
+
+lib/displey.i: lib/displey.c.i
+.PHONY : lib/displey.i
+
+# target to preprocess a source file
+lib/displey.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32_experiments.dir/build.make CMakeFiles/stm32_experiments.dir/lib/displey.c.i
+.PHONY : lib/displey.c.i
+
+lib/displey.s: lib/displey.c.s
+.PHONY : lib/displey.s
+
+# target to generate assembly for a file
+lib/displey.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32_experiments.dir/build.make CMakeFiles/stm32_experiments.dir/lib/displey.c.s
+.PHONY : lib/displey.c.s
+
+lib/showstring.o: lib/showstring.c.o
+.PHONY : lib/showstring.o
+
+# target to build an object file
+lib/showstring.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32_experiments.dir/build.make CMakeFiles/stm32_experiments.dir/lib/showstring.c.o
+.PHONY : lib/showstring.c.o
+
+lib/showstring.i: lib/showstring.c.i
+.PHONY : lib/showstring.i
+
+# target to preprocess a source file
+lib/showstring.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32_experiments.dir/build.make CMakeFiles/stm32_experiments.dir/lib/showstring.c.i
+.PHONY : lib/showstring.c.i
+
+lib/showstring.s: lib/showstring.c.s
+.PHONY : lib/showstring.s
+
+# target to generate assembly for a file
+lib/showstring.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32_experiments.dir/build.make CMakeFiles/stm32_experiments.dir/lib/showstring.c.s
+.PHONY : lib/showstring.c.s
+
+lib/spi.o: lib/spi.c.o
+.PHONY : lib/spi.o
+
+# target to build an object file
+lib/spi.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32_experiments.dir/build.make CMakeFiles/stm32_experiments.dir/lib/spi.c.o
+.PHONY : lib/spi.c.o
+
+lib/spi.i: lib/spi.c.i
+.PHONY : lib/spi.i
+
+# target to preprocess a source file
+lib/spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32_experiments.dir/build.make CMakeFiles/stm32_experiments.dir/lib/spi.c.i
+.PHONY : lib/spi.c.i
+
+lib/spi.s: lib/spi.c.s
+.PHONY : lib/spi.s
+
+# target to generate assembly for a file
+lib/spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32_experiments.dir/build.make CMakeFiles/stm32_experiments.dir/lib/spi.c.s
+.PHONY : lib/spi.c.s
+
+lib/utils.o: lib/utils.c.o
+.PHONY : lib/utils.o
+
+# target to build an object file
+lib/utils.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32_experiments.dir/build.make CMakeFiles/stm32_experiments.dir/lib/utils.c.o
+.PHONY : lib/utils.c.o
+
+lib/utils.i: lib/utils.c.i
+.PHONY : lib/utils.i
+
+# target to preprocess a source file
+lib/utils.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32_experiments.dir/build.make CMakeFiles/stm32_experiments.dir/lib/utils.c.i
+.PHONY : lib/utils.c.i
+
+lib/utils.s: lib/utils.c.s
+.PHONY : lib/utils.s
+
+# target to generate assembly for a file
+lib/utils.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stm32_experiments.dir/build.make CMakeFiles/stm32_experiments.dir/lib/utils.c.s
+.PHONY : lib/utils.c.s
 
 main.o: main.c.o
 .PHONY : main.o
@@ -276,6 +372,18 @@ help:
 	@echo "... flash"
 	@echo "... hex"
 	@echo "... stm32_experiments"
+	@echo "... lib/displey.o"
+	@echo "... lib/displey.i"
+	@echo "... lib/displey.s"
+	@echo "... lib/showstring.o"
+	@echo "... lib/showstring.i"
+	@echo "... lib/showstring.s"
+	@echo "... lib/spi.o"
+	@echo "... lib/spi.i"
+	@echo "... lib/spi.s"
+	@echo "... lib/utils.o"
+	@echo "... lib/utils.i"
+	@echo "... lib/utils.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

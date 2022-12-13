@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lab101/Documents/Anzhelika/stm32/stm32_experiments
+CMAKE_SOURCE_DIR = /home/lab101/Documents/Anzhelika/stm32ownproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lab101/Documents/Anzhelika/stm32/stm32_experiments/build
+CMAKE_BINARY_DIR = /home/lab101/Documents/Anzhelika/stm32ownproject/build
 
 # Utility rule file for bin.
 
@@ -70,8 +70,8 @@ CMakeFiles/bin: build/stm32_experiments.bin
 
 build/stm32_experiments.bin: build/stm32_experiments.elf
 build/stm32_experiments.bin: build/stm32_experiments.elf
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab101/Documents/Anzhelika/stm32/stm32_experiments/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating build/stm32_experiments.bin"
-	arm-none-eabi-objcopy -O binary /home/lab101/Documents/Anzhelika/stm32/stm32_experiments/build/build/stm32_experiments.elf /home/lab101/Documents/Anzhelika/stm32/stm32_experiments/build/build/stm32_experiments.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lab101/Documents/Anzhelika/stm32ownproject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating build/stm32_experiments.bin"
+	arm-none-eabi-objcopy -O binary /home/lab101/Documents/Anzhelika/stm32ownproject/build/build/stm32_experiments.elf /home/lab101/Documents/Anzhelika/stm32ownproject/build/build/stm32_experiments.bin
 
 bin: CMakeFiles/bin
 bin: build/stm32_experiments.bin
@@ -87,6 +87,6 @@ CMakeFiles/bin.dir/clean:
 .PHONY : CMakeFiles/bin.dir/clean
 
 CMakeFiles/bin.dir/depend:
-	cd /home/lab101/Documents/Anzhelika/stm32/stm32_experiments/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lab101/Documents/Anzhelika/stm32/stm32_experiments /home/lab101/Documents/Anzhelika/stm32/stm32_experiments /home/lab101/Documents/Anzhelika/stm32/stm32_experiments/build /home/lab101/Documents/Anzhelika/stm32/stm32_experiments/build /home/lab101/Documents/Anzhelika/stm32/stm32_experiments/build/CMakeFiles/bin.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lab101/Documents/Anzhelika/stm32ownproject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lab101/Documents/Anzhelika/stm32ownproject /home/lab101/Documents/Anzhelika/stm32ownproject /home/lab101/Documents/Anzhelika/stm32ownproject/build /home/lab101/Documents/Anzhelika/stm32ownproject/build /home/lab101/Documents/Anzhelika/stm32ownproject/build/CMakeFiles/bin.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/bin.dir/depend
 

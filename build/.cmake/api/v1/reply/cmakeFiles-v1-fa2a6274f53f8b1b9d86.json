@@ -1093,8 +1093,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/lab101/Documents/Anzhelika/stm32/stm32_experiments/build",
-		"source" : "/home/lab101/Documents/Anzhelika/stm32/stm32_experiments"
+		"build" : "/home/lab101/Documents/Anzhelika/stm32ownproject/build",
+		"source" : "/home/lab101/Documents/Anzhelika/stm32ownproject"
 	},
 	"version" : 
 	{
